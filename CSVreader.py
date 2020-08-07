@@ -1,9 +1,5 @@
 import csv
 import StockReport
-from yahoofinancials import YahooFinancials
-from datetime import date, timedelta
-import yfinance as yf
-import multiprocessing as mp
 from itertools import islice
 
 stockList = []
@@ -37,7 +33,7 @@ for report in stockList:
                 report.endDate = report2.startDate
     print(i)
     i+=1
-    if(i>100): break
+    if(i>100000): break
 
 for report in stockList:
     if (not report.ticker) or (not report.quarter) or (not report.year) or (not report.startDate) or (not report.endDate) or (not report.fscore):
@@ -89,7 +85,7 @@ for report in stockListFix:
         ratio = float(endPrice) / float(startPrice)
     report.returns = ratio
     print(report)
-    f = open("output.txt", "a")
-    f.write(report.ticker + " , " + report.startDate + " , " + str(report.fscore) + " , " + str(report.returns) + "\n")
+    f = open("FinalOutput.txt", "a")
+    f.write(report.ticker + " , " + report.startDate + " , " + report.endDate + " , " + str(report.fscore) + " , " + str(report.returns) + "\n")
     print(i)
     i += 1
