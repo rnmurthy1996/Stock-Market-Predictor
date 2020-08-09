@@ -6,8 +6,10 @@ This project utilizes quarterly financial data for a stock to predict returns fo
 ## Data Collection
 
 Data was collecting using the us-derived-quarterly.csv and us-shareprices-daily.csv files from SimFin. I have not included those in this repository due to their large file sizes.
+
 The data was refined using CSVreader.py which parsed thorough these files and created the output.txt file which contains quarterly info on each line for a specific stock.
-OutputEditor.py was also used to refine the data further by creating another file, outputUpdated.txt, which has some other financial metrics added to each line. OutputEditor.py was also used to refine data from SPY.csv in order to create SPYcomparison.txt which is used to compare quarterly returns for a specific stock to the return of the SPDR S&P 500 ETF Trust (SPY) for the same time period. SPY was used as a comparison since it generally tracks the broader US market. 
+
+OutputEditor.py was used to refine the data further by creating another file, outputUpdated.txt, which has some other financial metrics added to each line. OutputEditor.py was also used to refine data from SPY.csv in order to create SPYcomparison.txt which is used to compare quarterly returns for a specific stock to the return of the SPDR S&P 500 ETF Trust (SPY) for the same time period. SPY was used as a comparison since it generally tracks the broader US market. 
 
 ## Results
 
