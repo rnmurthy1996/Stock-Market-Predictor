@@ -15,11 +15,18 @@ OutputEditor.py was used to refine the data further by creating another file, ou
 
 A regression analysis was done in order to determine the relationship between a company's Piotrski F-score and the future returns of said company.
 
+![](RegressionResults.PNG)
+
 Based on the results, there is a clear positive correlation (albeit a weak one based on the 0.24 n<sup>2</sup> value) between these two metrics. In general, for every additional point on the Piotroski F-score, a company can be expected to get 0.71% additional returns for the forward quarter.
 
 The positive correlation can be further seen in the graphs below which show the average forward quarter returns and the average SPY outperformace for each F-score.
 
+![](Figure_1.png)
+![](Figure_2.png)
+
 The following graph is also somewhat useful to conceptualize the relative frequencies of each F-score. A general bell curve pattern is evident.
+
+![](Figure_3.png)
 
 ## Conclusions
 Based on the results, the Piotroski F-score seems to be a relatively useful metric for judging future stock performance. While the correlation is weak, this is somewhat expected since the stock market is unpredictable and somewhat random so a single metric (even one comprised of multiple indicators) is not expected to correlate highly.
