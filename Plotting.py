@@ -31,7 +31,7 @@ for i in range(0,10):
     averages[i] = float(sum[i]) / float(count[i])
     plt.plot(i, averages[i], 'ro')
 
-plt.xlabel('Pietroski F-Score')
+plt.xlabel('Piotroski F-score')
 plt.ylabel('Future Quarterly Return')
 plt.show()
 
@@ -58,12 +58,12 @@ for i in range(0,10):
     averages2[i] = float(sum2[i]) / float(count2[i])
     plt2.plot(i, averages2[i], 'ro')
 
-plt2.xlabel('Pietroski F-Score')
+plt2.xlabel('Piotroski F-score')
 plt2.ylabel('SPY Outperformance')
 plt2.show()
 
 fscoreArr = [0,1,2,3,4,5,6,7,8,9]
 plt3.bar(fscoreArr, count2)
-plt2.xlabel('Pietroski F-Score')
+plt2.xlabel('Piotroski F-score')
 plt2.ylabel('Number of Quarterly Reports')
 plt3.show()

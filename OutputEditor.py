@@ -18,6 +18,7 @@ with open('output.txt') as csvfile:
                         f.write(row[0] + ',' + row[1] + ',' + row[2] + ',' + row[3] + ',' + row2[17] + ',' + row2[18] + ',' + row2[19] + ',' + row[4] + '\n')
 """
 
+"""
 f = open("SPYcomparison.txt", "a")
 i=1
 with open('output.txt') as csvfile:
@@ -62,3 +63,4 @@ with open('output.txt') as csvfile:
                         if(SPYreturns != 0):
                             f.write(row[0] + ',' + row[3] + ',' + row[4] + ',' + str(SPYreturns) + '\n')
                             break
+"""

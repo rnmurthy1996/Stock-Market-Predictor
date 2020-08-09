@@ -85,7 +85,7 @@ for report in stockListFix:
         ratio = float(endPrice) / float(startPrice)
     report.returns = ratio
     print(report)
-    f = open("FinalOutput.txt", "a")
+    f = open("output.txt", "a")
     f.write(report.ticker + "," + report.startDate + "," + report.endDate + "," + str(report.fscore) + "," + str(report.returns) + "\n")
     print(i)
     i += 1

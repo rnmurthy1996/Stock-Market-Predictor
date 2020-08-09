@@ -1,4 +1,4 @@
-Ticker,Start Date,End Date,Pietroski F-Score,Current Ratio,Liabilities to Equity Ratio,Debt Ratio,Quarterly Return
+Ticker,Start Date,End Date,Piotroski F-score,Current Ratio,Liabilities to Equity Ratio,Debt Ratio,Quarterly Return
 A,2014-03-05,2014-06-04,5.00000,3.27502,0.95300,0.25334,0.9880436666089066
 A,2014-06-04,2014-09-02,5.00000,3.12798,0.95878,0.24424,1.0036829182742897
 A,2014-09-02,2014-12-22,5.00000,3.06143,0.84043,0.21349,0.7230473527869999
