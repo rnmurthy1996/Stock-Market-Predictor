@@ -19,12 +19,15 @@ A regression analysis was done in order to determine the relationship between a 
 
 Based on the results, there is a clear positive correlation (albeit a weak one based on the 0.24 n<sup>2</sup> value) between these two metrics. In general, for every additional point on the Piotroski F-score, a company can be expected to get 0.71% additional returns for the forward quarter.
 
-The positive correlation can be further seen in the graphs below which show the average forward quarter returns and the average SPY outperformace for each F-score.
+The positive correlation can be further seen in the graphs below which shows the average forward quarter returns for each F-score.
 
 ![](Figure_1.png)
+
+However, this data isn't partuclarly useful on it's own and needs to be compared to the returns from SPY to guage outperformance (or underperformance) of the broader market. The data that jump out on first glance are the edge cases, companies with F-scores of 0 or 9. The 0 group vastly underperformed the broader market, indicating that this score is a good indicator of failing businesses. On the flip side, the 9 group vastly outperformed the broader market, indicating that this score is a good indicator of thhriving businesses.
+
 ![](Figure_2.png)
 
-The following graph is also somewhat useful to conceptualize the relative frequencies of each F-score. A general bell curve pattern is evident.
+The following graph is also somewhat useful to conceptualize the relative frequencies of each F-score. A general bell curve pattern is evident with a F-score of 9 being quite rare, which is expected since the vast majority of companies cannot significantly beat the market.
 
 ![](Figure_3.png)
 
