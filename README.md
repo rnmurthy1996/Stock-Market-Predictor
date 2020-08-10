@@ -23,7 +23,7 @@ The positive correlation can be further seen in the graphs below which shows the
 
 ![](Figure_1.png)
 
-However, this data isn't partuclarly useful on it's own and needs to be compared to the returns from SPY to guage outperformance (or underperformance) of the broader market. The data that jump out on first glance are the edge cases, companies with F-scores of 0 or 9. The 0 group vastly underperformed the broader market, indicating that this score is a good indicator of failing businesses. On the flip side, the 9 group vastly outperformed the broader market, indicating that this score is a good indicator of thhriving businesses.
+However, this data isn't partuclarly useful on it's own and needs to be compared to the returns from SPY to guage outperformance (or underperformance) of the broader market. The data that jumps out on first glance are the edge cases, companies with F-scores of 0 or 9. The 0 group vastly underperformed the broader market, indicating that this score is a good indicator of failing businesses. On the flip side, the 9 group vastly outperformed the broader market, indicating that this score is a good indicator of thriving businesses.
 
 ![](Figure_2.png)
 
@@ -32,12 +32,12 @@ The following graph is also somewhat useful to conceptualize the relative freque
 ![](Figure_3.png)
 
 ## Conclusions
-Based on the results, the Piotroski F-score seems to be a relatively useful metric for judging future stock performance. While the correlation is weak, this is somewhat expected since the stock market is unpredictable and somewhat random so a single metric (even one comprised of multiple indicators) is not expected to correlate highly.
+Based on the results, the Piotroski F-score seems to be a relatively useful metric for judging future stock performance. While the correlation is weak, this is somewhat expected since the stock market is highly unpredictable so a single metric (even one comprised of multiple indicators) is not expected to correlate highly.
 
 ## Future Work
 Improving the regression analysis by looking at other financial metrics could potentially improve the correlation coefficient. I analysed a few (including current ratio and debt ratio) and was not able to improve it significantly but I'm sure it is possible.
 
-My data also only goes back to about 2012 so further backtesting would be useful.
+My data also only goes back to about 2012 so further backtesting with older stock data would be useful.
 
 ## Built With
 * Atom - Source code editor used for development
