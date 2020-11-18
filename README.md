@@ -1,7 +1,7 @@
 # Stock Market Predictor
 ## Project Introduction
 
-This project utilizes quarterly financial data for a stock to predict returns for the forward quarter. The primary metric used in the prediction analysis was the Pietroski F-Score which is explained in greater detail here (https://en.wikipedia.org/wiki/Piotroski_F-score).
+This project utilizes quarterly financial data for a stock to predict returns for the forward quarter. The primary metric used in the prediction analysis was the Piotroski F-Score which is explained in greater detail here (https://en.wikipedia.org/wiki/Piotroski_F-score).
 
 ## Data Collection
 
