@@ -13,7 +13,7 @@ OutputEditor.py was used to refine the data further by creating another file, ou
 
 ## Results
 
-A regression analysis was done in order to determine the relationship between a company's Piotrski F-score and the future returns of said company.
+A regression analysis was done in order to determine the relationship between a company's Piotroski F-score and the future returns of said company.
 
 ![](RegressionResults.PNG)
 
